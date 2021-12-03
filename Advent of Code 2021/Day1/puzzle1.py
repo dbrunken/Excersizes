@@ -14,3 +14,10 @@ count the umber of times a depth measurement increases from the previous
 how many measurements are larger than the last?
 '''
 
+depths = open('depths.txt', 'r')
+
+depthsList = depths.readlines()
+print(type(depthsList))
+# for depth in depthsList:
+    # print(type(depth))
+
